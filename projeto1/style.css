@@ -1,0 +1,79 @@
+#header{
+    background-color: #020202; /* Dark background color */
+    background-image: url('https://cdn.pixabay.com/photo');
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 24px;
+    flex-wrap: wrap;
+
+}
+
+#header h1{
+    font-size: 36px;
+    margin: 0;
+
+}
+
+#header img{
+    height: 100px;
+    width: 100px;
+    
+}
+
+#nome1{
+    font-size: 24px;
+    margin: 0;
+    color: #fff; /* White text color */
+    text-align: center;
+}
+
+#personagens{
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.personagens{
+    background-color: #fff; /* White background color */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    width: 300px;
+    margin-bottom: 20px;
+    text-align: center;
+    padding: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.personagens h3{
+    font-size: 30px;
+    margin: 10px 0;
+    color: #3e0101; /* Dark text color */
+    font-family: fantasy;
+}
+
+.personagens img{
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.personagens p{
+    font-size: 18px;
+    color: #020202;
+    text-align: center;
+    
+}
+
+body{
+    background-color: #4a0703; /* Light background color */
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333; /* Dark text color */
+}
+
